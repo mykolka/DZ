@@ -1,0 +1,7 @@
+.wrap{
+    grid-area: dashboard;
+    
+    background-color: rgba(223, 221, 221, 0.979);
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(75, 72, 72);
+}

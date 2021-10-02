@@ -1,0 +1,48 @@
+.wrap{
+    width: 100%;
+    background-color: rgb(252, 251, 248);
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 0 15px;
+    position: relative;
+}
+.formWrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+.formElement{
+  padding-right: 5px;
+   width: 100%;
+}
+.formElement:last-child{
+    padding: 0 0 0 30px;
+    
+}
+.formElement input{    
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid rgb(202, 198, 198);
+}
+
+.formElement:last-child input{
+    color: floralwhite;
+    background-color: midnightblue;
+    border: none;
+    cursor: pointer;
+}
+.clear{
+    position: absolute;
+    top: 0;
+    right: 20px;    
+    
+}
+.clear input{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(54, 54, 54);
+}
