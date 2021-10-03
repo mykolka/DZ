@@ -9,11 +9,15 @@ const Dashmain = (props) => {
     const [filteredData, setData] = useState(data[props.currency]);
    
    
+   
     return(
         <div className={classes.wrap}>                   
-            <Filters  setFilters={() => setData(data[props.currency].filter(item => item["Buy exchange pair"].includes(filter)))}  setFilter={setFilter} filter={filter} />
+            <Filters  setFilters = {() => setData(data[props.currency].filter(item => item["Buy exchange pair"].includes(filter)))}  setFilter={setFilter} filter={filter} />
             <Content data={data[props.currency]} headers={data[`headers${props.currency}`]} />
         </div>
     )
 }
 export default Dashmain;
+
+
+//setData(data[props.currency].filter(item => item["Buy exchange pair"].includes(filter)));

@@ -6,10 +6,10 @@ const Content = (props) => {
         <div className={classes.wrap}>                      
            <table>
            <thead>
-            <tr>
+                <tr>
                     {props.headers.map(header => <th>{header}</th>)}
-                </tr>
-           </thead>
+                </tr>                
+           </thead>           
             <tbody>
                 {                       
                      props.data.map(row => ( 

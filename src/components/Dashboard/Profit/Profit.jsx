@@ -7,7 +7,7 @@ const Profit = (props) => {
         <div className={classes.wrap}>
             <h1>Dashboard profit curency</h1>
             <div className={classes.select}>
-                <select onChange={e => props.setCurrency(e.target.value)} >                
+                <select value={props.currency} onChange={e => props.setCurrency(e.target.value)} >                
                     { 
                          Object.values(currencies).map(item => <option key={item}>{item}</option>)
                     }
@@ -22,4 +22,3 @@ const Profit = (props) => {
 export default Profit;
 
 
-// value={props.currency}

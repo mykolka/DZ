@@ -27,12 +27,13 @@ const Filters = (props) => {
                     <input type="text" />
                   </div>
                     <div className={classes.formElement}>
-                    <input onClick={e => props.setFilters && e.stopPropagation()} type="submit" value="Filter Arbitrage" name="filters"/>
+                    <input onClick={e => props.setFilters() && e.stopPropagation()} type="submit" value="Filter Arbitrage" name="filters"/>
                     </div>   
                 </div>               
                <div className={classes.clear}>               
                   <input type="reset" name="filters" value="Clear filters"                
-                    onClick={e => props.setFilter('') && e.stopPropagation()} />
+                    onClick={e => props.setFilter('') && e.stopPropagation()}
+                     />
                </div>
             </form>
         </div>

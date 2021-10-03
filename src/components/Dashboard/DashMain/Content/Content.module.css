@@ -1,15 +1,17 @@
 table{
     width: 100%;
-
+    border-collapse: collapse;   
 }
+
 thead th{
    padding: 10px 0 20px;
    border-bottom: 2px solid grey;
-   
+   font-size: 14px;
 }
-
 tbody td{
     text-align: center;
+    font-size: 14px;
+    padding: 10px 10px;
 }
 tbody td:nth-child(1){
     color: red;

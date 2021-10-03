@@ -16,6 +16,7 @@ export const data = {
           "Arb%(Free%)": "1.01%(0.15%)",
           "Exp.profit USD": 1,
           "Exp.fees USD": 0.2,
+          "Adj.": "🎜"
           
         },{
             "Buy exchange pair": "HIZVTC/IOTA-USD",
@@ -26,6 +27,7 @@ export const data = {
             "Arb%(Free%)": "1.1%(0.2%)",
             "Exp.profit USD": 2,
             "Exp.fees USD": 0.4,
+            "Adj.": "🎜"
         },{
             "Buy exchange pair": "HYTYTC/IOTA-USD",
             "Buy price": 0.54063,
@@ -35,6 +37,7 @@ export const data = {
             "Arb%(Free%)": "1.2%(0.31%)",
             "Exp.profit USD": 4,
             "Exp.fees USD": 0.7,
+            "Adj.": "🎜"
         },{
             "Buy exchange pair": "HYTYTC/IOTA-USD",
             "Buy price": 0.54063,
@@ -44,6 +47,7 @@ export const data = {
             "Arb%(Free%)": "1.2%(0.31%)",
             "Exp.profit USD": 4,
             "Exp.fees USD": 0.7,
+            "Adj.": "🎜"
         },{
             "Buy exchange pair": "HYTYTC/IOTA-USD",
             "Buy price": 0.54063,
@@ -53,6 +57,7 @@ export const data = {
             "Arb%(Free%)": "1.2%(0.31%)",
             "Exp.profit USD": 4,
             "Exp.fees USD": 0.7,
+            "Adj.": "🎜"
         },{
             "Buy exchange pair": "HYTYTC/IOTA-USD",
             "Buy price": 0.54063,
@@ -62,6 +67,7 @@ export const data = {
             "Arb%(Free%)": "1.2%(0.31%)",
             "Exp.profit USD": 4,
             "Exp.fees USD": 0.7,
+            "Adj.": "🎜"
         },{
             "Buy exchange pair": "HYTYTC/IOTA-USD",
             "Buy price": 0.54063,
@@ -71,6 +77,7 @@ export const data = {
             "Arb%(Free%)": "1.2%(0.31%)",
             "Exp.profit USD": 4,
             "Exp.fees USD": 0.7,
+            "Adj.": "🎜"
         }
       ],
     headersUSD: [
@@ -82,6 +89,7 @@ export const data = {
         "Arb%(Free%)",
         "Exp.profit USD",
         "Exp.fees USD",
+        "Adj.",
     ],
 
     [currencies.eur]: [
@@ -94,6 +102,7 @@ export const data = {
         "Arb%(Free%)": "1.01%(0.15%)",
         "Exp.profit EUR": 1,
         "Exp.fees EUR": 0.2,
+        "Adj.": "🎜"
         
         },{
             "Buy exchange pair": "HIZVTC/IOTA-EUR",
@@ -104,6 +113,7 @@ export const data = {
             "Arb%(Free%)": "1.1%(0.2%)",
             "Exp.profit EUR": 2,
             "Exp.fees EUR": 0.4,
+            "Adj.": "🎜"
         },{
             "Buy exchange pair": "HYTYTC/IOTA-EUR",
             "Buy price": 0.54063,
@@ -113,6 +123,7 @@ export const data = {
             "Arb%(Free%)": "1.2%(0.31%)",
             "Exp.profit EUR": 4,
             "Exp.fees EUR": 0.7,
+            "Adj.": "🎜"
         },{
             "Buy exchange pair": "HYTYTC/IOTA-EUR",
             "Buy price": 0.54063,
@@ -122,6 +133,7 @@ export const data = {
             "Arb%(Free%)": "1.2%(0.31%)",
             "Exp.profit EUR": 4,
             "Exp.fees EUR": 0.7,
+            "Adj.": "🎜"
         },{
             "Buy exchange pair": "HYTYTC/IOTA-EUR",
             "Buy price": 0.54063,
@@ -131,6 +143,7 @@ export const data = {
             "Arb%(Free%)": "1.2%(0.31%)",
             "Exp.profit EUR": 4,
             "Exp.fees EUR": 0.7,
+            "Adj.": "🎜"
         }
     ],    
     headersEUR: [
@@ -142,6 +155,7 @@ export const data = {
         "Arb%(Free%)",
         "Exp.profit EUR",
         "Exp.fees EUR",
+        "Adj."
     ],
 
     [currencies.nok]: [
@@ -154,6 +168,7 @@ export const data = {
             "Arb%(Free%)": "1.01%(0.15%)",
             "Exp.profit NOK": 1,
             "Exp.fees NOK": 0.2,
+            "Adj.": "🎜"
             
             },{
                 "Buy exchange pair": "HIZVTC/IOTA-NOK",
@@ -164,6 +179,7 @@ export const data = {
                 "Arb%(Free%)": "1.1%(0.2%)",
                 "Exp.profit NOK": 2,
                 "Exp.fees NOK": 0.4,
+                "Adj.": "🎜"
             },{
                 "Buy exchange pair": "HYTYTC/IOTA-NOK",
                 "Buy price": 0.54063,
@@ -172,7 +188,8 @@ export const data = {
                 "Trade amount": 253.3,
                 "Arb%(Free%)": "1.2%(0.31%)",
                 "Exp.profit NOK": 4,
-                "Exp.fees NOK": 0.1
+                "Exp.fees NOK": 0.1,
+                "Adj.": "🎜"
             },{
                 "Buy exchange pair": "HYTYTC/IOTA-NOK",
                 "Buy price": 0.54063,
@@ -181,7 +198,8 @@ export const data = {
                 "Trade amount": 253.3,
                 "Arb%(Free%)": "1.2%(0.31%)",
                 "Exp.profit NOK": 4,
-                "Exp.fees NOK": 0.1
+                "Exp.fees NOK": 0.1,
+                "Adj.": "🎜"
             },{
                 "Buy exchange pair": "HYTYTC/IOTA-NOK",
                 "Buy price": 0.54063,
@@ -190,7 +208,8 @@ export const data = {
                 "Trade amount": 253.3,
                 "Arb%(Free%)": "1.2%(0.31%)",
                 "Exp.profit NOK": 4,
-                "Exp.fees NOK": 0.1
+                "Exp.fees NOK": 0.1,
+                "Adj.": "🎜"
             },{
                 "Buy exchange pair": "HYTYTC/IOTA-NOK",
                 "Buy price": 0.54063,
@@ -199,7 +218,8 @@ export const data = {
                 "Trade amount": 253.3,
                 "Arb%(Free%)": "1.2%(0.31%)",
                 "Exp.profit NOK": 4,
-                "Exp.fees NOK": 0.1
+                "Exp.fees NOK": 0.1,
+                "Adj.": "🎜"
             }
         ],  
 
@@ -211,7 +231,8 @@ export const data = {
         "Trade amount",
         "Arb%(Free%)",
         "Exp.profit NOK",
-        "Exp.fees NOK"
+        "Exp.fees NOK",
+        "Adj."
     ],
 
 };

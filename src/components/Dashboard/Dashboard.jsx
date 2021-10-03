@@ -11,8 +11,10 @@ const Dashboard = (props) => {
     return(
         <div className={classes.wrap}>
             <DashMain currency={currency} />
-            <Instances  currency={currency}/>
+           <div className={classes.rightPart}>
             <Profit setCurrency={setCurrency}  />
+            <Instances  currency={currency}/>            
+           </div>
         </div>
     )
 };
